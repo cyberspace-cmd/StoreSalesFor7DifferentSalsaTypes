@@ -43,7 +43,7 @@ int main()
 			low = sales[i];
 			lowString = salsa[i];
 		}
-		sum += sales[i];
+		sum = + sales[i];
 	}
 	cout << endl << endl;
 
@@ -53,7 +53,7 @@ int main()
 	}
 	cout << endl << endl;
 	double average = sum / 7;
-    cout << "Your total is " << sum << endl;
+        cout << "Your total is " << sum << endl;
 	cout << "High was " << highString << endl;
 	cout << "Low was " << lowString << endl;
 	// Show average value
