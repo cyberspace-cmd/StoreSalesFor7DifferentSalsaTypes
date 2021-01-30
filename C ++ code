@@ -43,7 +43,7 @@ int main()
 			low = sales[i];
 			lowString = salsa[i];
 		}
-		sum = + sales[i];
+		sum += sales[i];
 	}
 	cout << endl << endl;
 
@@ -69,16 +69,7 @@ Jars sold last month of sweet : 44
 Jars sold last month of fruit : 55
 Jars sold last month of verde : 66
 Jars sold last month of zesty : 77
- Salsa Sales Report
-Name Jars Sold
-_________________
-mild : 11
-medium: 22
-hot : 33
-sweet : 44
-fruit : 55
-verde : 66
-zesty : 77
+
 Total Sales: 308
 High Seller: zesty
 Low Seller : mild
